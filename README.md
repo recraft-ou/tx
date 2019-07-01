@@ -45,15 +45,17 @@ By using the `Makefile`, the system can be built and launched using
 Launching the system provides browser access at <http://localhost:8787>
 for the system.
 
-## Results
+## Code
 
 Source code with comments/explanations:
 
   - [data wrangling](tx-data.md)
   - [API server](tx-server.md)
-  - [diff client](tx-client-md)
+  - [diff client](tx-client.md)
 
-The [diff client](tx-client-md) links shows all individual steps and
+## Results
+
+The [diff client](tx-client.md) link shows all individual steps and
 final diff report for the synthetic data, including a list of records
 that differ with only the relevant fields, that would need to be
 double-checked, or further processed in some automatic or manual way, I
