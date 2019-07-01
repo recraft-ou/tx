@@ -1,0 +1,8 @@
+default:
+  goobit:
+    driver: !expr RMySQL::MySQL() 
+    server: '172.17.0.3'
+    dbuser: !expr Sys.getenv("MYSQL_USER")
+    dbpass: !expr Sys.getenv("MYSQL_PASSWORD")  
+    port: 3306
+    database: !expr Sys.getenv("MYSQL_DATABASE")
